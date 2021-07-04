@@ -15,11 +15,17 @@ p {
     text-align: justify;
 }
 
-section {
+.flexxible {
     display: flex;
+    margin-bottom: 50px;
 
+
+}
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+
 }
 
 .half-width {
@@ -42,5 +48,74 @@ section {
     color: white;
     background-image: linear-gradient(tomato, red);
     padding: 10px 35px;
+    border-radius: 5px;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 100px;
+}
+
+#drem {
+    padding-right: 5%;
+}
+
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+#full {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
+    color: gray;
+}
+
+input {
+    width: 100%;
+    padding: 15px 15px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.contact {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 600px;
+}
+
+#submit {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(tomato, red);
+    padding: 10px 30px;
     border-radius: 5px;
 }
